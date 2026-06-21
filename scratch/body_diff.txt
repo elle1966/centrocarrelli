@@ -1,0 +1,1226 @@
+--- Bozza
+
++++ Root
+
+@@ -1,10 +1,10 @@
+
+ <!-- Header Navigation -->
+ <header class="nav-header" id="nav-header">
+ <div class="nav-container">
+-<a aria-label="Centro Carrelli Home" class="nav-logo" href="index.html">
+-<img alt="Centro Carrelli - 30° Anniversario - Partner STILL" src="assets/logo_centrocarrelli.png" style="height: 50px; width: auto;"/>
+-</a>
+-<button aria-controls="nav-menu" aria-expanded="false" aria-label="Apri menu di navigazione" class="hamburger">
++<a href="index.html" class="nav-logo" aria-label="Centro Carrelli Home">
++<img src="PLACEHOLDER_BASE64" alt="Centro Carrelli - 30&deg; Anniversario - Partner STILL" style="height: 80px; width: auto;">
++</a>
++<button class="hamburger" aria-label="Apri menu di navigazione" aria-expanded="false" aria-controls="nav-menu">
+ <span>
+ </span>
+ <span>
+@@ -19,47 +19,47 @@
+
+ </a>
+ </li>
+ <li class="nav-item">
+-<a href="https://www.centrocarrelli.net/carrelli-frontali/" rel="noopener" target="_blank">
++<a href="https://www.centrocarrelli.net/carrelli-frontali/" target="_blank" rel="noopener">
+ Carrelli Frontali
+ </a>
+ </li>
+ <li class="nav-item">
+-<a href="https://www.centrocarrelli.net/carrelli-magazzino/" rel="noopener" target="_blank">
++<a href="https://www.centrocarrelli.net/carrelli-magazzino/" target="_blank" rel="noopener">
+ Carrelli Magazzino
+ </a>
+ </li>
+ <li class="nav-item">
+-<a href="https://www.centrocarrelli.net/transpallet/" rel="noopener" target="_blank">
++<a href="https://www.centrocarrelli.net/transpallet/" target="_blank" rel="noopener">
+ Transpallet
+ </a>
+ </li>
+ <li class="nav-item">
+-<a href="https://www.centrocarrelli.net/occasioni/" rel="noopener" target="_blank">
++<a href="https://www.centrocarrelli.net/occasioni/" target="_blank" rel="noopener">
+ Occasioni
+ </a>
+ </li>
+ <li class="nav-item">
+-<a href="https://www.centrocarrelli.net/noleggio-carrelli-elevatori/" rel="noopener" target="_blank">
++<a href="https://www.centrocarrelli.net/noleggio-carrelli-elevatori/" target="_blank" rel="noopener">
+ Noleggio
+ </a>
+ </li>
+ <li class="nav-item">
+-<a href="https://www.centrocarrelli.net/azienda/" rel="noopener" target="_blank">
++<a href="https://www.centrocarrelli.net/azienda/" target="_blank" rel="noopener">
+ Azienda
+ </a>
+ </li>
+ <li class="nav-item">
+-<a href="https://www.centrocarrelli.net/assistenza-manutenzione-muletti/" rel="noopener" target="_blank">
++<a href="https://www.centrocarrelli.net/assistenza-manutenzione-muletti/" target="_blank" rel="noopener">
+ Assistenza
+ </a>
+ </li>
+ <li class="nav-item">
+-<a href="https://www.centrocarrelli.net/contatti/" rel="noopener" target="_blank">
++<a href="https://www.centrocarrelli.net/contatti/" target="_blank" rel="noopener">
+ Contatti
+ </a>
+ </li>
+ <li class="nav-cta">
+-<a class="btn btn-primary" href="#contatti">
++<a href="#contatti" class="btn btn-primary">
+ Richiedi Preventivo
+ </a>
+ </li>
+@@ -80,20 +80,20 @@
+
+ </span>
+ </h1>
+ <p class="hero-description">
+-Sistemi di movimentazione all'avanguardia, noleggio flessibile a breve e lungo termine, ed assistenza tecnica certificata. L'eccellenza ingegneristica di STILL sposa la nostra affidabilità sul territorio da trent'anni.
++Sistemi di movimentazione all'avanguardia, noleggio flessibile a breve e lungo termine, ed assistenza tecnica certificata. L'eccellenza ingegneristica di STILL sposa la nostra affidabilit&agrave; sul territorio da trent'anni.
+ </p>
+ <div class="hero-actions">
+-<a class="btn btn-primary" href="#finder">
++<a href="#finder" class="btn btn-primary">
+ Configura il tuo Mezzo
+ </a>
+-<a class="btn btn-secondary" href="#contatti" style="border-color: #ffffff; color: #ffffff;">
++<a href="#contatti" class="btn btn-secondary" style="border-color: #ffffff; color: #ffffff;">
+ Contatta un Esperto
+ </a>
+ </div>
+ </div>
+ <div class="hero-image-wrapper animate-on-scroll">
+ <div class="hero-image-container">
+-<img alt="Moderno carrello elevatore elettrico STILL in arancione e grigio carbone all'interno di un magazzino tecnologico" src="assets/hero_forklift.png"/>
++<img src="assets/hero_forklift.png" alt="Moderno carrello elevatore elettrico STILL in arancione e grigio carbone all'interno di un magazzino tecnologico">
+ </div>
+ <div class="hero-badge">
+ <div class="badge-num">
+@@ -101,20 +101,20 @@
+
+ </div>
+ <div class="badge-txt">
+ Anni di Efficienza
+-<br/>
++<br>
+ 1996 - 2026
+ </div>
+ </div>
+ </div>
+ </div>
+ </section>
+-<!-- ===== PROMO SECTION — Transpallet in Promozione ===== -->
++<!-- ===== PROMO SECTION &mdash; Transpallet in Promozione ===== -->
+ <section class="promo-section" id="promozioni">
+ <div class="section-container">
+ <!-- Promo Header -->
+ <div class="promo-header animate-on-scroll">
+ <span class="promo-eyebrow">
+-🔥 Offerte Speciali Transpallet
++&#128293; Offerte Speciali Transpallet
+ </span>
+ <h2>
+ Prezzi
+@@ -127,7 +127,7 @@
+
+ Transpallet elettrici nuovi e ricondizionati pronti alla consegna immediata
+ </p>
+ <span class="promo-urgency">
+-⏱ Fino ad esaurimento scorte
++&#9201; Fino ad esaurimento scorte
+ </span>
+ </div>
+ <!-- NUOVI -->
+@@ -135,7 +135,7 @@
+
+ <div class="promo-subsection-header">
+ <span class="promo-subsection-tag">
+ <span class="tag-icon">
+-🔶
++&#128310;
+ </span>
+ Transpallet Nuovi
+ </span>
+@@ -149,7 +149,7 @@
+
+ <span class="promo-card-badge badge-new">
+ Nuovo
+ </span>
+-<img alt="Transpallet elettrico STILL ECH 12 C" src="assets/ech12c_still.jpg"/>
++<img src="PLACEHOLDER_BASE64" alt="Transpallet elettrico STILL ECH 12 C">
+ </div>
+ <div class="promo-card-body">
+ <span class="promo-card-model">
+@@ -160,75 +160,56 @@
+
+ </h3>
+ <ul class="promo-card-specs">
+ <li>
+-<svg class="spec-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+-<path d="M12 3v17M5 8l7-5 7 5M2 16h5l5 5 5-5h5">
+-</path>
++<svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
++<path d="M12 3v17M5 8l7-5 7 5M2 16h5l5 5 5-5h5"/>
+ </svg>
+ Portata: 1.200 kg
+ </li>
+ <li>
+-<svg class="spec-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+-<rect height="18" rx="1" width="12" x="6" y="4">
+-</rect>
+-<line x1="10" x2="14" y1="1" y2="1">
+-</line>
+-<line x1="9" x2="15" y1="18" y2="18">
+-</line>
+-<line x1="12" x2="12" y1="10" y2="15">
+-</line>
+-<line x1="9.5" x2="14.5" y1="12.5" y2="12.5">
+-</line>
++<svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
++<rect x="6" y="4" width="12" height="18" rx="1"/>
++<line x1="10" y1="1" x2="14" y2="1"/>
++<line x1="9" y1="18" x2="15" y2="18"/>
++<line x1="12" y1="10" x2="12" y2="15"/>
++<line x1="9.5" y1="12.5" x2="14.5" y2="12.5"/>
+ </svg>
+ Batteria Li-Ion 24V / 20Ah
+ </li>
+ <li>
+-<svg class="spec-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+-<path d="M12 2v6">
+-</path>
+-<circle cx="12" cy="12" r="4">
+-</circle>
+-<path d="M12 16v4">
+-</path>
+-<path d="M16 20H8">
+-</path>
+-<path d="M7 7l-3 3M17 7l3 3">
+-</path>
++<svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
++<path d="M12 2v6"/>
++<circle cx="12" cy="12" r="4"/>
++<path d="M12 16v4"/>
++<path d="M16 20H8"/>
++<path d="M7 7l-3 3M17 7l3 3"/>
+ </svg>
+ Caricabatterie integrato
+ </li>
+ <li>
+-<svg class="spec-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+-<rect height="14" rx="2" width="20" x="2" y="3">
+-</rect>
+-<line x1="8" x2="16" y1="21" y2="21">
+-</line>
+-<line x1="12" x2="12" y1="17" y2="21">
+-</line>
++<svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
++<rect x="2" y="3" width="20" height="14" rx="2"/>
++<line x1="8" y1="21" x2="16" y2="21"/>
++<line x1="12" y1="17" x2="12" y2="21"/>
+ </svg>
+ Display LED integrato
+ </li>
+ <li>
+-<svg class="spec-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+-<circle cx="12" cy="12" r="10">
+-</circle>
+-<path d="M12 6v6l4 2">
+-</path>
+-</svg>
+-Velocità: fino a 4,5 km/h
+-</li>
+-<li>
+-<svg class="spec-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+-<path d="M20.91 8.84L8.56 21.18a1.5 1.5 0 0 1-2.12 0L3.82 18.56a1.5 1.5 0 0 1 0-2.12L16.16 4.09a3 3 0 0 1 2.12-.88h2.83a1 1 0 0 1 1 1v2.83a3 3 0 0 1-.88 2.12z">
+-</path>
+-<line x1="7" x2="11" y1="17" y2="13">
+-</line>
++<svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
++<circle cx="12" cy="12" r="10"/>
++<path d="M12 6v6l4 2"/>
++</svg>
++Velocit&agrave;: fino a 4,5 km/h
++</li>
++<li>
++<svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
++<path d="M20.91 8.84L8.56 21.18a1.5 1.5 0 0 1-2.12 0L3.82 18.56a1.5 1.5 0 0 1 0-2.12L16.16 4.09a3 3 0 0 1 2.12-.88h2.83a1 1 0 0 1 1 1v2.83a3 3 0 0 1-.88 2.12z"/>
++<line x1="7" y1="17" x2="11" y2="13"/>
+ </svg>
+ Peso: solo 115 kg
+ </li>
+ <li>
+-<svg class="spec-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+-<path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7">
+-</path>
++<svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
++<path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>
+ </svg>
+ Compatto per corridoi stretti
+ </li>
+@@ -239,11 +220,11 @@
+
+ Prezzo Promo
+ </span>
+ <span class="promo-card-price">
+-€ 1.150,00
+-</span>
+-</div>
+-<a class="promo-card-btn" href="javascript:void(0)" onclick="openProductModal('ech12c')">
+-Info →
++&euro; 1.150,00
++</span>
++</div>
++<a href="javascript:void(0)" onclick="openProductModal('ech12c')" class="promo-card-btn">
++Info &rarr;
+ </a>
+ </div>
+ </div>
+@@ -254,7 +235,7 @@
+
+ <span class="promo-card-badge badge-new">
+ Nuovo
+ </span>
+-<img alt="Transpallet elettrico STILL ECH 15 C" src="assets/ech15c_still.jpg"/>
++<img src="PLACEHOLDER_BASE64" alt="Transpallet elettrico STILL ECH 15 C">
+ </div>
+ <div class="promo-card-body">
+ <span class="promo-card-model">
+@@ -265,75 +246,56 @@
+
+ </h3>
+ <ul class="promo-card-specs">
+ <li>
+-<svg class="spec-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+-<path d="M12 3v17M5 8l7-5 7 5M2 16h5l5 5 5-5h5">
+-</path>
++<svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
++<path d="M12 3v17M5 8l7-5 7 5M2 16h5l5 5 5-5h5"/>
+ </svg>
+ Portata: 1.500 kg
+ </li>
+ <li>
+-<svg class="spec-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+-<rect height="18" rx="1" width="12" x="6" y="4">
+-</rect>
+-<line x1="10" x2="14" y1="1" y2="1">
+-</line>
+-<line x1="9" x2="15" y1="18" y2="18">
+-</line>
+-<line x1="12" x2="12" y1="10" y2="15">
+-</line>
+-<line x1="9.5" x2="14.5" y1="12.5" y2="12.5">
+-</line>
++<svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
++<rect x="6" y="4" width="12" height="18" rx="1"/>
++<line x1="10" y1="1" x2="14" y2="1"/>
++<line x1="9" y1="18" x2="15" y2="18"/>
++<line x1="12" y1="10" x2="12" y2="15"/>
++<line x1="9.5" y1="12.5" x2="14.5" y2="12.5"/>
+ </svg>
+ Batteria Li-Ion 24V / 20Ah
+ </li>
+ <li>
+-<svg class="spec-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+-<path d="M12 2v6">
+-</path>
+-<circle cx="12" cy="12" r="4">
+-</circle>
+-<path d="M12 16v4">
+-</path>
+-<path d="M16 20H8">
+-</path>
+-<path d="M7 7l-3 3M17 7l3 3">
+-</path>
++<svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
++<path d="M12 2v6"/>
++<circle cx="12" cy="12" r="4"/>
++<path d="M12 16v4"/>
++<path d="M16 20H8"/>
++<path d="M7 7l-3 3M17 7l3 3"/>
+ </svg>
+ Caricabatterie integrato
+ </li>
+ <li>
+-<svg class="spec-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+-<rect height="14" rx="2" width="20" x="2" y="3">
+-</rect>
+-<line x1="8" x2="16" y1="21" y2="21">
+-</line>
+-<line x1="12" x2="12" y1="17" y2="21">
+-</line>
++<svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
++<rect x="2" y="3" width="20" height="14" rx="2"/>
++<line x1="8" y1="21" x2="16" y2="21"/>
++<line x1="12" y1="17" x2="12" y2="21"/>
+ </svg>
+ Display LED integrato
+ </li>
+ <li>
+-<svg class="spec-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+-<circle cx="12" cy="12" r="10">
+-</circle>
+-<path d="M12 6v6l4 2">
+-</path>
+-</svg>
+-Velocità: fino a 4,5 km/h
+-</li>
+-<li>
+-<svg class="spec-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+-<path d="M20.91 8.84L8.56 21.18a1.5 1.5 0 0 1-2.12 0L3.82 18.56a1.5 1.5 0 0 1 0-2.12L16.16 4.09a3 3 0 0 1 2.12-.88h2.83a1 1 0 0 1 1 1v2.83a3 3 0 0 1-.88 2.12z">
+-</path>
+-<line x1="7" x2="11" y1="17" y2="13">
+-</line>
++<svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
++<circle cx="12" cy="12" r="10"/>
++<path d="M12 6v6l4 2"/>
++</svg>
++Velocit&agrave;: fino a 4,5 km/h
++</li>
++<li>
++<svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
++<path d="M20.91 8.84L8.56 21.18a1.5 1.5 0 0 1-2.12 0L3.82 18.56a1.5 1.5 0 0 1 0-2.12L16.16 4.09a3 3 0 0 1 2.12-.88h2.83a1 1 0 0 1 1 1v2.83a3 3 0 0 1-.88 2.12z"/>
++<line x1="7" y1="17" x2="11" y2="13"/>
+ </svg>
+ Peso: solo 115 kg
+ </li>
+ <li>
+-<svg class="spec-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+-<path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7">
+-</path>
++<svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
++<path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>
+ </svg>
+ Ideale per magazzini e negozi
+ </li>
+@@ -344,11 +306,11 @@
+
+ Prezzo Promo
+ </span>
+ <span class="promo-card-price">
+-€ 1.350,00
+-</span>
+-</div>
+-<a class="promo-card-btn" href="javascript:void(0)" onclick="openProductModal('ech15c')">
+-Info →
++&euro; 1.350,00
++</span>
++</div>
++<a href="javascript:void(0)" onclick="openProductModal('ech15c')" class="promo-card-btn">
++Info &rarr;
+ </a>
+ </div>
+ </div>
+@@ -359,7 +321,7 @@
+
+ <span class="promo-card-badge badge-new">
+ Nuovo
+ </span>
+-<img alt="Transpallet elettrico STILL EXH 14 C" src="assets/exh14c_transpallet.png"/>
++<img src="PLACEHOLDER_BASE64" alt="Transpallet elettrico STILL EXH 14 C">
+ </div>
+ <div class="promo-card-body">
+ <span class="promo-card-model">
+@@ -370,89 +332,63 @@
+
+ </h3>
+ <ul class="promo-card-specs">
+ <li>
+-<svg class="spec-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+-<path d="M12 3v17M5 8l7-5 7 5M2 16h5l5 5 5-5h5">
+-</path>
++<svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
++<path d="M12 3v17M5 8l7-5 7 5M2 16h5l5 5 5-5h5"/>
+ </svg>
+ Portata: 1.400 kg
+ </li>
+ <li>
+-<svg class="spec-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+-<rect height="18" rx="1" width="12" x="6" y="4">
+-</rect>
+-<line x1="10" x2="14" y1="1" y2="1">
+-</line>
+-<line x1="9" x2="15" y1="18" y2="18">
+-</line>
+-<line x1="12" x2="12" y1="10" y2="15">
+-</line>
+-<line x1="9.5" x2="14.5" y1="12.5" y2="12.5">
+-</line>
++<svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
++<rect x="6" y="4" width="12" height="18" rx="1"/>
++<line x1="10" y1="1" x2="14" y2="1"/>
++<line x1="9" y1="18" x2="15" y2="18"/>
++<line x1="12" y1="10" x2="12" y2="15"/>
++<line x1="9.5" y1="12.5" x2="14.5" y2="12.5"/>
+ </svg>
+ Batteria Li-Ion 48V / 20Ah
+ </li>
+ <li>
+-<svg class="spec-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+-<path d="M12 2v6">
+-</path>
+-<circle cx="12" cy="12" r="4">
+-</circle>
+-<path d="M12 16v4">
+-</path>
+-<path d="M16 20H8">
+-</path>
+-<path d="M7 7l-3 3M17 7l3 3">
+-</path>
++<svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
++<path d="M12 2v6"/>
++<circle cx="12" cy="12" r="4"/>
++<path d="M12 16v4"/>
++<path d="M16 20H8"/>
++<path d="M7 7l-3 3M17 7l3 3"/>
+ </svg>
+ Caricabatterie integrato (230V)
+ </li>
+ <li>
+-<svg class="spec-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+-<rect height="14" rx="2" width="20" x="2" y="3">
+-</rect>
+-<line x1="8" x2="16" y1="21" y2="21">
+-</line>
+-<line x1="12" x2="12" y1="17" y2="21">
+-</line>
++<svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
++<rect x="2" y="3" width="20" height="14" rx="2"/>
++<line x1="8" y1="21" x2="16" y2="21"/>
++<line x1="12" y1="17" x2="12" y2="21"/>
+ </svg>
+ Display LED integrato
+ </li>
+ <li>
+-<svg class="spec-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+-<circle cx="12" cy="12" r="10">
+-</circle>
+-<path d="M12 6v6l4 2">
+-</path>
+-</svg>
+-Velocità: fino a 5,0 km/h
+-</li>
+-<li>
+-<svg class="spec-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+-<path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z">
+-</path>
+-<line x1="6" x2="6" y1="1" y2="4">
+-</line>
+-<line x1="10" x2="10" y1="1" y2="4">
+-</line>
+-<line x1="14" x2="14" y1="1" y2="4">
+-</line>
++<svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
++<circle cx="12" cy="12" r="10"/>
++<path d="M12 6v6l4 2"/>
++</svg>
++Velocit&agrave;: fino a 5,0 km/h
++</li>
++<li>
++<svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
++<path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/>
++<line x1="6" y1="1" x2="6" y2="4"/>
++<line x1="10" y1="1" x2="10" y2="4"/>
++<line x1="14" y1="1" x2="14" y2="4"/>
+ </svg>
+ Timone STILL ergonomico
+ </li>
+ <li>
+-<svg class="spec-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+-<circle cx="12" cy="12" r="3">
+-</circle>
+-<circle cx="12" cy="12" r="10">
+-</circle>
+-<line x1="12" x2="12" y1="2" y2="5">
+-</line>
+-<line x1="12" x2="12" y1="19" y2="22">
+-</line>
+-<line x1="2" x2="5" y1="12" y2="12">
+-</line>
+-<line x1="19" x2="22" y1="12" y2="12">
+-</line>
++<svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
++<circle cx="12" cy="12" r="3"/>
++<circle cx="12" cy="12" r="10"/>
++<line x1="12" y1="2" x2="12" y2="5"/>
++<line x1="12" y1="19" x2="12" y2="22"/>
++<line x1="2" y1="12" x2="5" y2="12"/>
++<line x1="19" y1="12" x2="22" y2="12"/>
+ </svg>
+ Ruote di supporto laterali
+ </li>
+@@ -463,11 +399,11 @@
+
+ Prezzo Promo
+ </span>
+ <span class="promo-card-price">
+-€ 1.890,00
+-</span>
+-</div>
+-<a class="promo-card-btn" href="javascript:void(0)" onclick="openProductModal('exh14c')">
+-Info →
++&euro; 1.890,00
++</span>
++</div>
++<a href="javascript:void(0)" onclick="openProductModal('exh14c')" class="promo-card-btn">
++Info &rarr;
+ </a>
+ </div>
+ </div>
+@@ -479,7 +415,7 @@
+
+ <div class="promo-subsection-header">
+ <span class="promo-subsection-tag">
+ <span class="tag-icon">
+-🔧
++&#128295;
+ </span>
+ Usati Ricondizionati
+ </span>
+@@ -493,57 +429,45 @@
+
+ <span class="promo-card-badge badge-used">
+ Ricondizionato
+ </span>
+-<img alt="Transpallet elettrico STILL ECU 16 usato ricondizionato" src="assets/ecu16_usato.jpg" style="max-height: 200px; object-fit: cover; width: 100%; border-radius: 2px;"/>
++<img src="PLACEHOLDER_BASE64" alt="Transpallet elettrico STILL ECU 16 usato ricondizionato" style="max-height: 200px; object-fit: cover; width: 100%; border-radius: 2px;">
+ </div>
+ <div class="promo-card-body">
+ <span class="promo-card-model">
+-Transpallet Elettrico — Usato
++Transpallet Elettrico &mdash; Usato
+ </span>
+ <h3 class="promo-card-name">
+ STILL ECU 16
+ </h3>
+ <ul class="promo-card-specs">
+ <li>
+-<svg class="spec-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+-<path d="M12 3v17M5 8l7-5 7 5M2 16h5l5 5 5-5h5">
+-</path>
++<svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
++<path d="M12 3v17M5 8l7-5 7 5M2 16h5l5 5 5-5h5"/>
+ </svg>
+ Portata: 1.600 kg
+ </li>
+ <li>
+-<svg class="spec-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+-<rect height="18" rx="1" width="12" x="6" y="4">
+-</rect>
+-<line x1="10" x2="14" y1="1" y2="1">
+-</line>
+-<line x1="9" x2="15" y1="18" y2="18">
+-</line>
+-<line x1="12" x2="12" y1="10" y2="15">
+-</line>
+-<line x1="9.5" x2="14.5" y1="12.5" y2="12.5">
+-</line>
++<svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
++<rect x="6" y="4" width="12" height="18" rx="1"/>
++<line x1="10" y1="1" x2="14" y2="1"/>
++<line x1="9" y1="18" x2="15" y2="18"/>
++<line x1="12" y1="10" x2="12" y2="15"/>
++<line x1="9.5" y1="12.5" x2="14.5" y2="12.5"/>
+ </svg>
+ Batteria 24V / 150Ah
+ </li>
+ <li>
+-<svg class="spec-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+-<path d="M12 2v6">
+-</path>
+-<circle cx="12" cy="12" r="4">
+-</circle>
+-<path d="M12 16v4">
+-</path>
+-<path d="M16 20H8">
+-</path>
+-<path d="M7 7l-3 3M17 7l3 3">
+-</path>
++<svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
++<path d="M12 2v6"/>
++<circle cx="12" cy="12" r="4"/>
++<path d="M12 16v4"/>
++<path d="M16 20H8"/>
++<path d="M7 7l-3 3M17 7l3 3"/>
+ </svg>
+ Caricabatterie incorporato
+ </li>
+ <li>
+-<svg class="spec-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24">
+-<path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94L6.73 20.17a2.12 2.12 0 0 1-3-3l6.8-6.8a6 6 0 0 1 7.94-7.94L14.7 6.3z">
+-</path>
++<svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
++<path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94L6.73 20.17a2.12 2.12 0 0 1-3-3l6.8-6.8a6 6 0 0 1 7.94-7.94L14.7 6.3z"/>
+ </svg>
+ Revisionato e pronto all'uso
+ </li>
+@@ -554,11 +478,11 @@
+
+ Prezzo Usato
+ </span>
+ <span class="promo-card-price">
+-€ 1.200,00
+-</span>
+-</div>
+-<a class="promo-card-btn" href="javascript:void(0)" onclick="openProductModal('ecu16')">
+-Info →
++&euro; 1.200,00
++</span>
++</div>
++<a href="javascript:void(0)" onclick="openProductModal('ecu16')" class="promo-card-btn">
++Info &rarr;
+ </a>
+ </div>
+ </div>
+@@ -570,7 +494,7 @@
+
+ <p>
+ Hai bisogno di informazioni su questi transpallet? Contattaci subito!
+ </p>
+-<a class="btn btn-primary" href="#contatti">
++<a href="#contatti" class="btn btn-primary">
+ Richiedi Preventivo Promo
+ </a>
+ </div>
+@@ -580,8 +504,8 @@
+
+ <div class="info-strip">
+ <div class="info-strip-container">
+ <div class="info-item">
+-<div aria-hidden="true" class="info-icon">
+-<i class="info-lucide-icon" data-lucide="timer">
++<div class="info-icon" aria-hidden="true">
++<i data-lucide="timer" class="info-lucide-icon">
+ </i>
+ </div>
+ <div class="info-text">
+@@ -594,8 +518,8 @@
+
+ </div>
+ </div>
+ <div class="info-item">
+-<div aria-hidden="true" class="info-icon">
+-<i class="info-lucide-icon" data-lucide="battery-charging">
++<div class="info-icon" aria-hidden="true">
++<i data-lucide="battery-charging" class="info-lucide-icon">
+ </i>
+ </div>
+ <div class="info-text">
+@@ -608,8 +532,8 @@
+
+ </div>
+ </div>
+ <div class="info-item">
+-<div aria-hidden="true" class="info-icon">
+-<i class="info-lucide-icon" data-lucide="package">
++<div class="info-icon" aria-hidden="true">
++<i data-lucide="package" class="info-lucide-icon">
+ </i>
+ </div>
+ <div class="info-text">
+@@ -622,8 +546,8 @@
+
+ </div>
+ </div>
+ <div class="info-item">
+-<div aria-hidden="true" class="info-icon">
+-<i class="info-lucide-icon" data-lucide="wrench">
++<div class="info-icon" aria-hidden="true">
++<i data-lucide="wrench" class="info-lucide-icon">
+ </i>
+ </div>
+ <div class="info-text">
+@@ -667,15 +591,15 @@
+
+ </span>
+ <div class="filter-options">
+ <label class="filter-btn active">
+-<input checked="" name="ambiente" type="radio" value="entrambi"/>
++<input type="radio" name="ambiente" value="entrambi" checked>
+ Interno ed Esterno
+ </label>
+ <label class="filter-btn">
+-<input name="ambiente" type="radio" value="interno"/>
++<input type="radio" name="ambiente" value="interno">
+ Solo Interno (Magazzino)
+ </label>
+ <label class="filter-btn">
+-<input name="ambiente" type="radio" value="esterno"/>
++<input type="radio" name="ambiente" value="esterno">
+ Solo Esterno (Piazzale)
+ </label>
+ </div>
+@@ -686,15 +610,15 @@
+
+ </span>
+ <div class="filter-options">
+ <label class="filter-btn active">
+-<input checked="" name="operazione" type="radio" value="quota"/>
++<input type="radio" name="operazione" value="quota" checked>
+ Stoccaggio in Quota (Scaffali)
+ </label>
+ <label class="filter-btn">
+-<input name="operazione" type="radio" value="orizzontale"/>
++<input type="radio" name="operazione" value="orizzontale">
+ Movimentazione Orizzontale
+ </label>
+ <label class="filter-btn">
+-<input name="operazione" type="radio" value="grandi"/>
++<input type="radio" name="operazione" value="grandi">
+ Movimentazione Grandi Carichi
+ </label>
+ </div>
+@@ -705,15 +629,15 @@
+
+ </span>
+ <div class="filter-options">
+ <label class="filter-btn active">
+-<input checked="" name="alimentazione" type="radio" value="elettrico"/>
++<input type="radio" name="alimentazione" value="elettrico" checked>
+ Elettrico (Standard)
+ </label>
+ <label class="filter-btn">
+-<input name="alimentazione" type="radio" value="litio"/>
++<input type="radio" name="alimentazione" value="litio">
+ Ioni di Litio (Ricarica Rapida)
+ </label>
+ <label class="filter-btn">
+-<input name="alimentazione" type="radio" value="diesel"/>
++<input type="radio" name="alimentazione" value="diesel">
+ Diesel / Gas GPL (Esterno)
+ </label>
+ </div>
+@@ -725,7 +649,7 @@
+
+ <span class="results-count" id="results-count">
+ Carrelli trovati
+ </span>
+-<button class="btn btn-secondary" onclick="resetFilters()" style="padding: 6px 12px; font-size: 0.8rem; min-height: auto;">
++<button class="btn btn-secondary" style="padding: 6px 12px; font-size: 0.8rem; min-height: auto;" onclick="resetFilters()">
+ Reset Filtri
+ </button>
+ </div>
+@@ -747,12 +671,12 @@
+
+ <h2>
+ Una storia di
+ <span>
+-affidabilità
++affidabilit&agrave;
+ </span>
+ e innovazione
+ </h2>
+ <p>
+-Dal 1996, Centro Carrelli è al fianco delle aziende bolognesi per garantire flussi logistici impeccabili. La nostra storia è caratterizzata dalla ricerca costante dell'efficienza e del servizio perfetto. Con l'evoluzione verso le batterie agli ioni di litio e l'automazione intralogistica, continuiamo a guidare i nostri partner verso il futuro della movimentazione delle merci.
++Dal 1996, Centro Carrelli &egrave; al fianco delle aziende bolognesi per garantire flussi logistici impeccabili. La nostra storia &egrave; caratterizzata dalla ricerca costante dell'efficienza e del servizio perfetto. Con l'evoluzione verso le batterie agli ioni di litio e l'automazione intralogistica, continuiamo a guidare i nostri partner verso il futuro della movimentazione delle merci.
+ </p>
+ <div class="anniversary-timeline">
+ <div class="timeline-card">
+@@ -782,14 +706,14 @@
+
+ 2026
+ </div>
+ <div class="timeline-title">
+-Svolta Green &amp; Auto
++Svolta Green & Auto
+ </div>
+ <div class="timeline-desc">
+ Focalizzazione su transpallet al litio, carrelli elettrici e carrelli automatici AGV.
+ </div>
+ </div>
+ </div>
+-<a class="btn btn-primary" href="#contatti">
++<a href="#contatti" class="btn btn-primary">
+ Scopri Chi Siamo
+ </a>
+ </div>
+@@ -803,7 +727,7 @@
+
+ </span>
+ <span class="text-2">
+ Centro Carrelli S.r.l.
+-<br/>
++<br>
+ 1996 - 2026
+ </span>
+ </div>
+@@ -816,7 +740,7 @@
+
+ <div class="section-container">
+ <div class="services-grid">
+ <div class="services-image-container animate-on-scroll">
+-<img alt="Furgone di assistenza tecnica Centro Carrelli parcheggiato di fronte a una moderna sede industriale a Bologna" src="assets/service_van.png"/>
++<img src="assets/service_van.png" alt="Furgone di assistenza tecnica Centro Carrelli parcheggiato di fronte a una moderna sede industriale a Bologna">
+ </div>
+ <div class="services-list animate-on-scroll">
+ <div class="section-header" style="text-align: left; margin-bottom: 40px; max-width: none;">
+@@ -824,10 +748,10 @@
+
+ Manutenzione Certificata
+ </span>
+ <h2 class="section-title">
+-L'assistenza tecnica è il nostro DNA
++L'assistenza tecnica &egrave; il nostro DNA
+ </h2>
+ <p class="section-subtitle">
+-Un carrello fermo è un costo operativo che blocca la tua produzione. Ecco perché abbiamo strutturato la nostra officina mobile per intervenire tempestivamente ed eliminare ogni collo di bottiglia.
++Un carrello fermo &egrave; un costo operativo che blocca la tua produzione. Ecco perch&eacute; abbiamo strutturato la nostra officina mobile per intervenire tempestivamente ed eliminare ogni collo di bottiglia.
+ </p>
+ </div>
+ <div class="service-card">
+@@ -836,7 +760,7 @@
+
+ </div>
+ <div class="service-details">
+ <h3>
+-Officina Mobile &amp; Diagnostica STILL
++Officina Mobile & Diagnostica STILL
+ </h3>
+ <p>
+ I nostri tecnici intervengono con furgoni attrezzati e sistemi di diagnostica computerizzata ufficiale STILL per ripristinare il mezzo direttamente in banchina.
+@@ -865,7 +789,7 @@
+
+ Controlli di Sicurezza Obbligatori
+ </h3>
+ <p>
+-Verifiche periodiche di sicurezza in conformità al D.Lgs. 81/08 per catene, forche e dispositivi di protezione attiva dei carrellisti, con rilascio del relativo registro.
++Verifiche periodiche di sicurezza in conformit&agrave; al D.Lgs. 81/08 per catene, forche e dispositivi di protezione attiva dei carrellisti, con rilascio del relativo registro.
+ </p>
+ </div>
+ </div>
+@@ -878,24 +802,24 @@
+
+ <div class="section-container">
+ <div class="section-header animate-on-scroll">
+ <span class="section-tag">
+-Logistica &amp; Approfondimenti
++Logistica & Approfondimenti
+ </span>
+ <h2 class="section-title">
+ Consigli dai nostri tecnici
+ </h2>
+ <p class="section-subtitle">
+-Rimani aggiornato sulle ultime novità in tema di intralogistica, normative di sicurezza per carrelli e innovazioni tecnologiche nel mondo del sollevamento.
++Rimani aggiornato sulle ultime novit&agrave; in tema di intralogistica, normative di sicurezza per carrelli e innovazioni tecnologiche nel mondo del sollevamento.
+ </p>
+ </div>
+ <div class="articles-grid animate-on-scroll">
+ <!-- Article 1: Portata Residua -->
+ <article class="article-card">
+ <div class="article-image">
+-<img alt="Portata residua del carrello elevatore" src="assets/article_portata_residua.jpg"/>
++<img src="PLACEHOLDER_BASE64" alt="Portata residua del carrello elevatore">
+ </div>
+ <div class="article-header">
+ <span class="article-date">
+-12.06.2026 • Sicurezza
++12.06.2026 &bull; Sicurezza
+ </span>
+ </div>
+ <div class="article-body">
+@@ -905,10 +829,10 @@
+
+ <p class="article-excerpt">
+ Calcolo della portata residua del carrello elevatore: come evitare il ribaltamento e come comprendere le tabelle di carico per tutelare gli operatori.
+ </p>
+-<a class="article-link" href="https://www.centrocarrelli.net/portata-residua-del-carrello-elevatore-come-evitare-il-ribaltamento/">
++<a href="https://www.centrocarrelli.net/portata-residua-del-carrello-elevatore-come-evitare-il-ribaltamento/" class="article-link">
+ Leggi
+ <span>
+-→
++&rarr;
+ </span>
+ </a>
+ </div>
+@@ -916,11 +840,11 @@
+
+ <!-- Article 2: Batterie Piombo vs Litio -->
+ <article class="article-card">
+ <div class="article-image">
+-<img alt="Batterie per carrelli piombo-acido vs litio" src="assets/article_batterie.jpg"/>
++<img src="PLACEHOLDER_BASE64" alt="Batterie per carrelli piombo-acido vs litio">
+ </div>
+ <div class="article-header">
+ <span class="article-date">
+-29.05.2026 • Tecnologia
++29.05.2026 &bull; Tecnologia
+ </span>
+ </div>
+ <div class="article-body">
+@@ -928,12 +852,12 @@
+
+ Batterie per carrelli: piombo-acido vs litio nel 2026
+ </h3>
+ <p class="article-excerpt">
+-Scegliere tra le classiche batterie al piombo e quelle al litio è ciò che cambia davvero la redditività del tuo magazzino. Confronto completo.
+-</p>
+-<a class="article-link" href="https://www.centrocarrelli.net/batterie-per-carrelli-piombo-acido-vs-litio-nel-2026/">
++Scegliere tra le classiche batterie al piombo e quelle al litio &egrave; ci&ograve; che cambia davvero la redditivit&agrave; del tuo magazzino. Confronto completo.
++</p>
++<a href="https://www.centrocarrelli.net/batterie-per-carrelli-piombo-acido-vs-litio-nel-2026/" class="article-link">
+ Leggi
+ <span>
+-→
++&rarr;
+ </span>
+ </a>
+ </div>
+@@ -941,11 +865,11 @@
+
+ <!-- Article 3: Usati Ricondizionati -->
+ <article class="article-card">
+ <div class="article-image">
+-<img alt="Carrelli elevatori usati ricondizionati" src="assets/article_usati.jpg"/>
++<img src="PLACEHOLDER_BASE64" alt="Carrelli elevatori usati ricondizionati">
+ </div>
+ <div class="article-header">
+ <span class="article-date">
+-18.05.2026 • Occasioni
++18.05.2026 &bull; Occasioni
+ </span>
+ </div>
+ <div class="article-body">
+@@ -953,19 +877,19 @@
+
+ Carrelli elevatori usati ricondizionati: l'affare sicuro per la tua azienda
+ </h3>
+ <p class="article-excerpt">
+-Come ottimizzare l'operatività di magazzino dimezzando il budget: guida completa ai carrelli elevatori usati ricondizionati e al risparmio intelligente.
+-</p>
+-<a class="article-link" href="https://www.centrocarrelli.net/carrelli-elevatori-usati-ricondizionati-laffare-sicuro-per-la-tua-azienda/">
++Come ottimizzare l'operativit&agrave; di magazzino dimezzando il budget: guida completa ai carrelli elevatori usati ricondizionati e al risparmio intelligente.
++</p>
++<a href="https://www.centrocarrelli.net/carrelli-elevatori-usati-ricondizionati-laffare-sicuro-per-la-tua-azienda/" class="article-link">
+ Leggi
+ <span>
+-→
++&rarr;
+ </span>
+ </a>
+ </div>
+ </article>
+ </div>
+ <div class="articles-cta-container animate-on-scroll">
+-<a class="btn btn-secondary" href="https://www.centrocarrelli.net/">
++<a href="https://www.centrocarrelli.net/" class="btn btn-secondary">
+ Vedi Tutti gli Articoli
+ </a>
+ </div>
+@@ -987,8 +911,8 @@
+
+ </p>
+ <div class="contact-details">
+ <div class="contact-detail-item">
+-<div aria-hidden="true" class="contact-detail-icon">
+-<i class="info-lucide-icon" data-lucide="phone">
++<div class="contact-detail-icon" aria-hidden="true">
++<i data-lucide="phone" class="info-lucide-icon">
+ </i>
+ </div>
+ <div class="contact-detail-text">
+@@ -1003,8 +927,8 @@
+
+ </div>
+ </div>
+ <div class="contact-detail-item">
+-<div aria-hidden="true" class="contact-detail-icon">
+-<i class="info-lucide-icon" data-lucide="mail">
++<div class="contact-detail-icon" aria-hidden="true">
++<i data-lucide="mail" class="info-lucide-icon">
+ </i>
+ </div>
+ <div class="contact-detail-text">
+@@ -1019,8 +943,8 @@
+
+ </div>
+ </div>
+ <div class="contact-detail-item">
+-<div aria-hidden="true" class="contact-detail-icon">
+-<i class="info-lucide-icon" data-lucide="map-pin">
++<div class="contact-detail-icon" aria-hidden="true">
++<i data-lucide="map-pin" class="info-lucide-icon">
+ </i>
+ </div>
+ <div class="contact-detail-text">
+@@ -1028,36 +952,29 @@
+
+ Sede Operativa
+ </h4>
+ <p>
+-Via R. Viganò 10, 40010 Bentivoglio (BO)
++Via R. Vigan&ograve; 10, 40010 Bentivoglio (BO)
+ </p>
+ </div>
+ </div>
+ </div>
+ <div class="social-links">
+-<a aria-label="Facebook Centro Carrelli" class="social-btn" href="https://www.facebook.com/centrocarrelli" rel="noopener noreferrer" target="_blank">
+-<svg fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="20">
+-<path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z">
+-</path>
+-</svg>
+-</a>
+-<a aria-label="LinkedIn Centro Carrelli" class="social-btn" href="https://www.linkedin.com/company/centro-carrelli" rel="noopener noreferrer" target="_blank">
+-<svg fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="20">
+-<path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+-</path>
+-<rect height="12" width="4" x="2" y="9">
+-</rect>
+-<circle cx="4" cy="4" r="2">
+-</circle>
+-</svg>
+-</a>
+-<a aria-label="Instagram Centro Carrelli" class="social-btn" href="https://www.instagram.com/centrocarrelli" rel="noopener noreferrer" target="_blank">
+-<svg fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="20">
+-<rect height="20" rx="5" width="20" x="2" y="2">
+-</rect>
+-<path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z">
+-</path>
+-<line x1="17.5" x2="17.51" y1="6.5" y2="6.5">
+-</line>
++<a href="https://www.facebook.com/centrocarrelli" class="social-btn" aria-label="Facebook Centro Carrelli" target="_blank" rel="noopener noreferrer">
++<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
++<path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
++</svg>
++</a>
++<a href="https://www.linkedin.com/company/centro-carrelli" class="social-btn" aria-label="LinkedIn Centro Carrelli" target="_blank" rel="noopener noreferrer">
++<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
++<path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
++<rect x="2" y="9" width="4" height="12"/>
++<circle cx="4" cy="4" r="2"/>
++</svg>
++</a>
++<a href="https://www.instagram.com/centrocarrelli" class="social-btn" aria-label="Instagram Centro Carrelli" target="_blank" rel="noopener noreferrer">
++<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
++<rect x="2" y="2" width="20" height="20" rx="5"/>
++<path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
++<line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+ </svg>
+ </a>
+ </div>
+@@ -1070,37 +987,37 @@
+
+ <p>
+ Compila il modulo sottostante, verrai ricontattato entro 1 ora lavorativa.
+ </p>
+-<form action="#" class="wpcf7-form" id="contact-form" onsubmit="event.preventDefault(); alert('Grazie per averci contattato! Il team di Centro Carrelli risponderà al più presto.');">
++<form action="#" class="wpcf7-form" id="contact-form" onsubmit="event.preventDefault(); alert('Grazie per averci contattato! Il team di Centro Carrelli risponder&agrave; al pi&ugrave; presto.');">
+ <div class="form-grid">
+ <div class="form-group">
+ <label for="form-name">
+ Nome e Cognome *
+ </label>
+-<input class="form-control" id="form-name" placeholder="Inserisci il tuo nome" required="" type="text"/>
++<input type="text" id="form-name" class="form-control" placeholder="Inserisci il tuo nome" required>
+ </div>
+ <div class="form-group">
+ <label for="form-company">
+ Azienda
+ </label>
+-<input class="form-control" id="form-company" placeholder="Ragione sociale" type="text"/>
++<input type="text" id="form-company" class="form-control" placeholder="Ragione sociale">
+ </div>
+ <div class="form-group">
+ <label for="form-email">
+ Indirizzo Email *
+ </label>
+-<input class="form-control" id="form-email" placeholder="tuaemail@azienda.com" required="" type="email"/>
++<input type="email" id="form-email" class="form-control" placeholder="tuaemail@azienda.com" required>
+ </div>
+ <div class="form-group">
+ <label for="form-phone">
+ Telefono *
+ </label>
+-<input class="form-control" id="form-phone" placeholder="Numero di telefono" required="" type="tel"/>
++<input type="tel" id="form-phone" class="form-control" placeholder="Numero di telefono" required>
+ </div>
+ <div class="form-group form-full">
+ <label for="form-service">
+ Servizio d'Interesse
+ </label>
+-<select class="form-control" id="form-service" style="background-color: rgba(18, 19, 22, 0.6); color: #FFF; border: 1px solid rgba(255,255,255,0.15);">
++<select id="form-service" class="form-control" style="background-color: rgba(18, 19, 22, 0.6); color: #FFF; border: 1px solid rgba(255,255,255,0.15);">
+ <option value="noleggio">
+ Noleggio Carrello Elevatore
+ </option>
+@@ -1122,11 +1039,11 @@
+
+ <label for="form-message">
+ Come possiamo aiutarti? *
+ </label>
+-<textarea class="form-control" id="form-message" placeholder="Scrivi qui i dettagli della tua richiesta..." required="">
++<textarea id="form-message" class="form-control" placeholder="Scrivi qui i dettagli della tua richiesta..." required>
+ </textarea>
+ </div>
+ <div class="form-group form-full form-privacy">
+-<input id="privacy-check" required="" type="checkbox"/>
++<input type="checkbox" id="privacy-check" required>
+ <label for="privacy-check">
+ Accetto il trattamento dei dati personali secondo la
+ <a href="https://www.centrocarrelli.net/privacy-policy/">
+@@ -1136,7 +1053,7 @@
+
+ </label>
+ </div>
+ <div class="form-group form-full" style="margin-top: 10px;">
+-<button class="btn btn-primary" style="width: 100%;" type="submit">
++<button type="submit" class="btn btn-primary" style="width: 100%;">
+ Invia Richiesta
+ </button>
+ </div>
+@@ -1150,7 +1067,7 @@
+
+ <footer class="footer-bottom">
+ <div class="footer-container">
+ <p>
+-© 2026 Centro Carrelli S.r.l. - Via R. Viganò 10, Bentivoglio (BO) - P.IVA 01234567890. Concessionario STILL Ufficiale.
++&copy; 2026 Centro Carrelli S.r.l. - Via R. Vigan&ograve; 10, Bentivoglio (BO) - P.IVA 01234567890. Concessionario STILL Ufficiale.
+ </p>
+ <ul class="footer-links">
+ <li>
+@@ -1179,7 +1096,7 @@
+
+ </button>
+ <div class="modal-content">
+ <div class="modal-hero">
+-<img src="assets/ech12c_still.jpg" alt="STILL ECH 12 C">
++<img src="PLACEHOLDER_BASE64" alt="STILL ECH 12 C">
+ <div>
+ <span class="modal-subtitle">
+ Transpallet Elettrico - Nuovo
+@@ -1334,7 +1251,7 @@
+
+ </button>
+ <div class="modal-content">
+ <div class="modal-hero">
+-<img src="assets/ech15c_still.jpg" alt="STILL ECH 15 C">
++<img src="PLACEHOLDER_BASE64" alt="STILL ECH 15 C">
+ <div>
+ <span class="modal-subtitle">
+ Transpallet Elettrico - Nuovo
+@@ -1489,7 +1406,7 @@
+
+ </button>
+ <div class="modal-content">
+ <div class="modal-hero">
+-<img src="assets/exh14c_transpallet.png" alt="STILL EXH 14 C">
++<img src="PLACEHOLDER_BASE64" alt="STILL EXH 14 C">
+ <div>
+ <span class="modal-subtitle">
+ Transpallet Elettrico - Nuovo
+@@ -1644,7 +1561,7 @@
+
+ </button>
+ <div class="modal-content">
+ <div class="modal-hero">
+-<img src="assets/ecu16_usato.jpg" alt="STILL ECU 16">
++<img src="PLACEHOLDER_BASE64" alt="STILL ECU 16">
+ <div>
+ <span class="modal-subtitle">
+ Transpallet Elettrico - Usato Ricondizionato
