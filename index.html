@@ -29,8 +29,8 @@
 <span></span>
 </button>
 <ul class="nav-menu" id="nav-menu">
-<li class="nav-item"><a href="#finder" data-categoria="frontali">Carrelli Frontali</a></li>
-<li class="nav-item"><a href="#finder" data-categoria="magazzino">Carrelli Magazzino</a></li>
+<li class="nav-item"><a href="#finder" data-categoria="carrelli-frontali">Carrelli Frontali</a></li>
+<li class="nav-item"><a href="#finder" data-categoria="carrelli-magazzino">Carrelli Magazzino</a></li>
 <li class="nav-item"><a href="#finder" data-categoria="transpallet">Transpallet</a></li>
 <li class="nav-item"><a href="#finder" data-categoria="occasioni">Occasioni</a></li>
 <li class="nav-item"><a href="https://www.centrocarrelli.net/noleggio-carrelli-elevatori/" rel="noopener" target="_blank">Noleggio</a></li>
@@ -130,8 +130,8 @@
 <label class="screen-reader-text" for="filter-categoria">Categoria</label>
 <select class="finder-select" id="filter-categoria" name="categoria">
 <option value="">Tutti i prodotti (98)</option>
-<option value="frontali">Carrelli Frontali (44)</option>
-<option value="magazzino">Carrelli magazzino (27)</option>
+<option value="carrelli-frontali">Carrelli Frontali (44)</option>
+<option value="carrelli-magazzino">Carrelli magazzino (27)</option>
 <option value="transpallet">Transpallet (27)</option>
 <option value="occasioni">Occasioni (7)</option>
 </select>
@@ -161,7 +161,7 @@
 <select class="finder-select" id="filter-alimentazione" name="alimentazione">
 <option value="">Tutte le alimentazioni</option>
 <option value="Elettrico">Elettrico</option>
-<option value="diesel">Diesel / GPL</option>
+<option value="Diesel">Diesel / GPL</option>
 <option value="Manuale">Manuale</option>
 </select>
 </div>
@@ -169,33 +169,33 @@
 <label class="screen-reader-text" for="filter-portata">Portata Kg.</label>
 <select class="finder-select" id="filter-portata" name="portata">
 <option value="">Portata Kg.</option>
-<option value="1000-2000">1000 - 2000</option>
-<option value="2000-3000">2000 - 3000</option>
-<option value="3000-4000">3000 - 4000</option>
-<option value="4000-5000">4000 - 5000</option>
-<option value="5000-6000">5000 - 6000</option>
-<option value="6000-7000">6000 - 7000</option>
-<option value="7000-8000">7000 - 8000</option>
-<option value="8000-9000">8000 - 9000</option>
+<option value="1000+2000">1000 - 2000</option>
+<option value="2000+3000">2000 - 3000</option>
+<option value="3000+4000">3000 - 4000</option>
+<option value="4000+5000">4000 - 5000</option>
+<option value="5000+6000">5000 - 6000</option>
+<option value="6000+7000">6000 - 7000</option>
+<option value="7000+8000">7000 - 8000</option>
+<option value="8000+9000">8000 - 9000</option>
 </select>
 </div>
 <div class="filter-group" style="margin-bottom: 12px;">
 <label class="screen-reader-text" for="filter-sollevamento">Sollevamento mm.</label>
 <select class="finder-select" id="filter-sollevamento" name="sollevamento">
 <option value="">Sollevamento mm.</option>
-<option value="0-2000">0 - 2000 mm</option>
-<option value="2200-2700">2200 - 2700 mm</option>
-<option value="2700-3200">2700 - 3200 mm</option>
-<option value="3200-3700">3200 - 3700 mm</option>
-<option value="3700-4200">3700 - 4200 mm</option>
-<option value="4200-4700">4200 - 4700 mm</option>
-<option value="4700-5200">4700 - 5200 mm</option>
-<option value="5200-5700">5200 - 5700 mm</option>
-<option value="5700-6200">5700 - 6200 mm</option>
-<option value="6200-6700">6200 - 6700 mm</option>
-<option value="6700-7200">6700 - 7200 mm</option>
-<option value="7200-7700">7200 - 7700 mm</option>
-<option value="7700-8200">7700 - 8200 mm</option>
+<option value="0+2000">0 - 2000 mm</option>
+<option value="2200+2700">2200 - 2700 mm</option>
+<option value="2700+3200">2700 - 3200 mm</option>
+<option value="3200+3700">3200 - 3700 mm</option>
+<option value="3700+4200">3700 - 4200 mm</option>
+<option value="4200+4700">4200 - 4700 mm</option>
+<option value="4700+5200">4700 - 5200 mm</option>
+<option value="5200+5700">5200 - 5700 mm</option>
+<option value="5700+6200">5700 - 6200 mm</option>
+<option value="6200+6700">6200 - 6700 mm</option>
+<option value="6700+7200">6700 - 7200 mm</option>
+<option value="7200+7700">7200 - 7700 mm</option>
+<option value="7700+8200">7700 - 8200 mm</option>
 </select>
 </div>
 <div class="filter-group" style="margin-bottom: 12px;">
@@ -682,7 +682,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '2500 kg',
             altezza: '4200 mm',
-            tipologia: 'frontali'
+            tipologia: 'carrelli-frontali'
         },
         description: 'Carrello elevatore frontale elettrico STILL R 60-25, portata 2.5 t, altezza sollevamento 4.2 m. Affidabile ed economico.',
         price: 'Noleggio o Vendita'
@@ -704,7 +704,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '5000 kg',
             altezza: '4630 mm',
-            tipologia: 'frontali'
+            tipologia: 'carrelli-frontali'
         },
         description: 'Potente carrello elettrico STILL RX 60-50 per carichi pesanti fino a 5 tonnellate. Modello recente del 2020 in ottime condizioni.',
         price: 'Noleggio o Vendita'
@@ -726,7 +726,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '3000 kg',
             altezza: '5540 mm',
-            tipologia: 'frontali'
+            tipologia: 'carrelli-frontali'
         },
         description: 'Versione con baricentro allungato a 600mm. Portata 3.0 t, sollevamento 5.5 m. Ideale per carichi voluminosi.',
         price: 'Noleggio o Vendita'
@@ -748,7 +748,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '3000 kg',
             altezza: '4170 mm',
-            tipologia: 'frontali'
+            tipologia: 'carrelli-frontali'
         },
         description: 'Uno dei modelli più apprezzati della gamma STILL. Portata 3.0 t, altezza sollevamento 4.17 m. Perfetto bilanciamento tra potenza e agilità.',
         price: 'Noleggio o Vendita'
@@ -770,7 +770,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '2500 kg',
             altezza: '4890 mm',
-            tipologia: 'frontali'
+            tipologia: 'carrelli-frontali'
         },
         description: 'Carrello elevatore frontale elettrico STILL RX 60-25, portata 2.5 t, altezza sollevamento 4.89 m. Batteria efficiente.',
         price: 'Noleggio o Vendita'
@@ -792,7 +792,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '2000 kg',
             altezza: '4765 mm',
-            tipologia: 'frontali'
+            tipologia: 'carrelli-frontali'
         },
         description: 'Straordinariamente agile e compatto, ideale per lavorare in corsie e spazi ristretti con portata di 2.0 t.',
         price: 'Noleggio o Vendita'
@@ -814,7 +814,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '1800 kg',
             altezza: '5070 mm',
-            tipologia: 'frontali'
+            tipologia: 'carrelli-frontali'
         },
         description: 'Modello a 4 ruote con ottima stabilità e precisione millimetrica. Portata 1.8 t, sollevamento 5.07 m.',
         price: 'Noleggio o Vendita'
@@ -836,7 +836,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '1800 kg',
             altezza: '4770 mm',
-            tipologia: 'frontali'
+            tipologia: 'carrelli-frontali'
         },
         description: 'Carrello frontale elettrico STILL RX 20-18, portata 1.8 t, altezza sollevamento 4.77 m, anno 2019.',
         price: 'Noleggio o Vendita'
@@ -858,7 +858,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '1600 kg',
             altezza: '4620 mm',
-            tipologia: 'frontali'
+            tipologia: 'carrelli-frontali'
         },
         description: 'Carrello frontale a 4 ruote compatto STILL RX 20-16 P, anno 2021, portata 1.6 t. Ideale per carico/scarico merci.',
         price: 'Noleggio o Vendita'
@@ -880,7 +880,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '1600 kg',
             altezza: '5220 mm',
-            tipologia: 'frontali'
+            tipologia: 'carrelli-frontali'
         },
         description: 'Carrello frontale a 3 ruote compatto STILL RX 20-16 C, portata 1.6 t, sollevamento 5.22 m.',
         price: 'Noleggio o Vendita'
@@ -902,7 +902,7 @@ const PRODUCTS = [
             alimentazione: 'diesel',
             portata: '2500 kg',
             altezza: '7390 mm',
-            tipologia: 'frontali'
+            tipologia: 'carrelli-frontali'
         },
         description: 'Potente carrello frontale diesel del 2022. Portata 2.5 t, sollevamento eccezionale a 7.39 m per uso esterno.',
         price: 'Noleggio o Vendita'
@@ -924,7 +924,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '3000 kg',
             altezza: '4000 mm',
-            tipologia: 'frontali'
+            tipologia: 'carrelli-frontali'
         },
         description: 'Carrello elevatore elettrico LUGLI ELX 30, robusto e affidabile, portata 3.0 t, altezza sollevamento 4.0 m.',
         price: 'Noleggio o Vendita'
@@ -947,7 +947,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '2000 kg',
             altezza: '3170 mm',
-            tipologia: 'magazzino'
+            tipologia: 'carrelli-magazzino'
         },
         description: 'Sollevatore a timone STILL EXV 20, anno 2024, portata 2.0 t, sollevamento 3.17 m. Praticamente nuovo.',
         price: 'Noleggio o Vendita'
@@ -969,7 +969,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '1200 kg',
             altezza: '4386 mm',
-            tipologia: 'magazzino'
+            tipologia: 'carrelli-magazzino'
         },
         description: 'Sollevatore a colonna compatto STILL EXV 12, portata 1.2 t, altezza sollevamento 4.38 m. Facile da manovrare.',
         price: 'Noleggio o Vendita'
@@ -991,7 +991,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '1400 kg',
             altezza: '4800 mm',
-            tipologia: 'magazzino'
+            tipologia: 'carrelli-magazzino'
         },
         description: 'Stoccatore elettrico STILL EXV 14, portata 1.4 t, altezza sollevamento 4.8 m. Perfetto per magazzinaggio intensivo.',
         price: 'Noleggio o Vendita'
@@ -1013,7 +1013,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '1400 kg',
             altezza: '4350 mm',
-            tipologia: 'magazzino'
+            tipologia: 'carrelli-magazzino'
         },
         description: 'Stoccatore elettrico STILL EXV 14, portata 1.4 t, altezza sollevamento 4.35 m.',
         price: 'Noleggio o Vendita'
@@ -1035,7 +1035,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '1400 kg',
             altezza: '4266 mm',
-            tipologia: 'magazzino'
+            tipologia: 'carrelli-magazzino'
         },
         description: 'Stoccatore elettrico STILL EXV 14, portata 1.4 t, altezza sollevamento 4.26 m.',
         price: 'Noleggio o Vendita'
@@ -1057,7 +1057,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '1200 kg',
             altezza: '4386 mm',
-            tipologia: 'magazzino'
+            tipologia: 'carrelli-magazzino'
         },
         description: 'Stoccatore a colonna STILL EXV 12, portata 1.2 t, altezza sollevamento 4.38 m, anno 2019.',
         price: 'Noleggio o Vendita'
@@ -1143,15 +1143,15 @@ function initForkliftFinder() {
         if (selectCategoria) {
             const counts = {
                 tutti: PRODUCTS.length,
-                frontali: PRODUCTS.filter(p => p.specs.tipologia === 'frontali').length,
-                magazzino: PRODUCTS.filter(p => p.specs.tipologia === 'magazzino').length,
+                frontali: PRODUCTS.filter(p => p.specs.tipologia === 'carrelli-frontali').length,
+                magazzino: PRODUCTS.filter(p => p.specs.tipologia === 'carrelli-magazzino').length,
                 transpallet: PRODUCTS.filter(p => p.specs.tipologia === 'transpallet').length,
                 occasioni: PRODUCTS.filter(p => p.isOccasione).length
             };
             selectCategoria.innerHTML = '';
             selectCategoria.add(new Option(`Tutti i prodotti (${counts.tutti})`, ''));
-            if (counts.frontali > 0) selectCategoria.add(new Option(`Carrelli Frontali (${counts.frontali})`, 'frontali'));
-            if (counts.magazzino > 0) selectCategoria.add(new Option(`Carrelli magazzino (${counts.magazzino})`, 'magazzino'));
+            if (counts.frontali > 0) selectCategoria.add(new Option(`Carrelli Frontali (${counts.frontali})`, 'carrelli-frontali'));
+            if (counts.magazzino > 0) selectCategoria.add(new Option(`Carrelli magazzino (${counts.magazzino})`, 'carrelli-magazzino'));
             if (counts.transpallet > 0) selectCategoria.add(new Option(`Transpallet (${counts.transpallet})`, 'transpallet'));
             if (counts.occasioni > 0) selectCategoria.add(new Option(`Occasioni (${counts.occasioni})`, 'occasioni'));
         }
@@ -1180,26 +1180,26 @@ function initForkliftFinder() {
             selectAlimentazione.innerHTML = '';
             selectAlimentazione.add(new Option('Tutte le alimentazioni', ''));
             if (hasElettrico) selectAlimentazione.add(new Option('Elettrico', 'Elettrico'));
-            if (hasDiesel) selectAlimentazione.add(new Option('Diesel / GPL', 'diesel'));
+            if (hasDiesel) selectAlimentazione.add(new Option('Diesel / GPL', 'Diesel'));
             if (hasManuale) selectAlimentazione.add(new Option('Manuale', 'Manuale'));
         }
 
         // --- Portata (only ranges that contain products) ---
         if (selectPortata) {
             const ranges = [
-                { label: '1000 - 2000 kg', value: '1000-2000' },
-                { label: '2000 - 3000 kg', value: '2000-3000' },
-                { label: '3000 - 4000 kg', value: '3000-4000' },
-                { label: '4000 - 5000 kg', value: '4000-5000' },
-                { label: '5000 - 6000 kg', value: '5000-6000' },
-                { label: '6000 - 7000 kg', value: '6000-7000' },
-                { label: '7000 - 8000 kg', value: '7000-8000' },
-                { label: '8000 - 9000 kg', value: '8000-9000' }
+                { label: '1000 - 2000 kg', value: '1000+2000' },
+                { label: '2000 - 3000 kg', value: '2000+3000' },
+                { label: '3000 - 4000 kg', value: '3000+4000' },
+                { label: '4000 - 5000 kg', value: '4000+5000' },
+                { label: '5000 - 6000 kg', value: '5000+6000' },
+                { label: '6000 - 7000 kg', value: '6000+7000' },
+                { label: '7000 - 8000 kg', value: '7000+8000' },
+                { label: '8000 - 9000 kg', value: '8000+9000' }
             ];
             selectPortata.innerHTML = '';
             selectPortata.add(new Option('Portata Kg.', ''));
             ranges.forEach(r => {
-                const parts = r.value.split('-');
+                const parts = r.value.split('+');
                 const min = parseInt(parts[0], 10);
                 const max = parseInt(parts[1], 10);
                 const count = PRODUCTS.filter(p => {
@@ -1213,13 +1213,13 @@ function initForkliftFinder() {
         // --- Sollevamento (only ranges that contain products) ---
         if (selectSollevamento) {
             const ranges = [
-                { label: '0 - 2000 mm', value: '0-2000' },
-                { label: '2000 - 3000 mm', value: '2000-3000' },
-                { label: '3000 - 4000 mm', value: '3000-4000' },
-                { label: '4000 - 5000 mm', value: '4000-5000' },
-                { label: '5000 - 6000 mm', value: '5000-6000' },
-                { label: '6000 - 7000 mm', value: '6000-7000' },
-                { label: '7000 - 8000 mm', value: '7000-8000' }
+                { label: '0 - 2000 mm', value: '0+2000' },
+                { label: '2000 - 3000 mm', value: '2000+3000' },
+                { label: '3000 - 4000 mm', value: '3000+4000' },
+                { label: '4000 - 5000 mm', value: '4000+5000' },
+                { label: '5000 - 6000 mm', value: '5000+6000' },
+                { label: '6000 - 7000 mm', value: '6000+7000' },
+                { label: '7000 - 8000 mm', value: '7000+8000' }
             ];
             selectSollevamento.innerHTML = '';
             selectSollevamento.add(new Option('Sollevamento mm.', ''));
@@ -1283,7 +1283,7 @@ function initForkliftFinder() {
             let matchAlim = true;
             if (alim) {
                 const prodAlim = prod.specs.alimentazione.toLowerCase();
-                if (alim === 'diesel') {
+                if (alim === 'Diesel') {
                     matchAlim = prodAlim === 'diesel' || prodAlim === 'gpl';
                 } else if (alim === 'Elettrico') {
                     matchAlim = prodAlim === 'elettrico' || prodAlim.includes('litio');
@@ -1295,7 +1295,7 @@ function initForkliftFinder() {
             // 4. Portata
             let matchPortata = true;
             if (portata) {
-                const parts = portata.split('-');
+                const parts = portata.split('+');
                 const min = parseInt(parts[0], 10);
                 const max = parseInt(parts[1], 10);
                 const pVal = parseVal(prod.specs.portata);
@@ -1305,7 +1305,7 @@ function initForkliftFinder() {
             // 5. Sollevamento
             let matchSollevamento = true;
             if (sollevamento) {
-                const parts = sollevamento.split('-');
+                const parts = sollevamento.split('+');
                 const min = parseInt(parts[0], 10);
                 const max = parseInt(parts[1], 10);
                 const sVal = parseVal(prod.specs.altezza);

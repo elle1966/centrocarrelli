@@ -1,3 +1,4 @@
+
 /* ==========================================================================
    CENTRO CARRELLI - STILL INSPIRED INTERACTIVE LOGIC (2026)
    ========================================================================== */
@@ -22,12 +23,6 @@ function init() {
     } catch (e) {
         console.error("Error in initScrollAnimations:", e);
     }
-}
-
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-} else {
-    init();
 }
 
 /**
@@ -118,7 +113,7 @@ const PRODUCTS = [
         id: 'ech12c',
         name: 'STILL ECH 12 C',
         brand: 'Transpallet Elettrico',
-        image: 'assets/ech_transpallet.png',
+        image: 'assets/ech12c_still.jpg',
         tag: 'Promo',
         tagClass: 'litio',
         link: '/ech12c.html',
@@ -140,7 +135,7 @@ const PRODUCTS = [
         id: 'ech15c',
         name: 'STILL ECH 15 C',
         brand: 'Transpallet Elettrico',
-        image: 'assets/ech_transpallet.png',
+        image: 'assets/ech15c_still.jpg',
         tag: 'Promo',
         tagClass: 'litio',
         link: '/ech15c.html',
@@ -220,7 +215,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '2500 kg',
             altezza: '4200 mm',
-            tipologia: 'frontali'
+            tipologia: 'carrelli-frontali'
         },
         description: 'Carrello elevatore frontale elettrico STILL R 60-25, portata 2.5 t, altezza sollevamento 4.2 m. Affidabile ed economico.',
         price: 'Noleggio o Vendita'
@@ -242,7 +237,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '5000 kg',
             altezza: '4630 mm',
-            tipologia: 'frontali'
+            tipologia: 'carrelli-frontali'
         },
         description: 'Potente carrello elettrico STILL RX 60-50 per carichi pesanti fino a 5 tonnellate. Modello recente del 2020 in ottime condizioni.',
         price: 'Noleggio o Vendita'
@@ -264,7 +259,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '3000 kg',
             altezza: '5540 mm',
-            tipologia: 'frontali'
+            tipologia: 'carrelli-frontali'
         },
         description: 'Versione con baricentro allungato a 600mm. Portata 3.0 t, sollevamento 5.5 m. Ideale per carichi voluminosi.',
         price: 'Noleggio o Vendita'
@@ -286,7 +281,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '3000 kg',
             altezza: '4170 mm',
-            tipologia: 'frontali'
+            tipologia: 'carrelli-frontali'
         },
         description: 'Uno dei modelli più apprezzati della gamma STILL. Portata 3.0 t, altezza sollevamento 4.17 m. Perfetto bilanciamento tra potenza e agilità.',
         price: 'Noleggio o Vendita'
@@ -308,7 +303,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '2500 kg',
             altezza: '4890 mm',
-            tipologia: 'frontali'
+            tipologia: 'carrelli-frontali'
         },
         description: 'Carrello elevatore frontale elettrico STILL RX 60-25, portata 2.5 t, altezza sollevamento 4.89 m. Batteria efficiente.',
         price: 'Noleggio o Vendita'
@@ -330,7 +325,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '2000 kg',
             altezza: '4765 mm',
-            tipologia: 'frontali'
+            tipologia: 'carrelli-frontali'
         },
         description: 'Straordinariamente agile e compatto, ideale per lavorare in corsie e spazi ristretti con portata di 2.0 t.',
         price: 'Noleggio o Vendita'
@@ -352,7 +347,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '1800 kg',
             altezza: '5070 mm',
-            tipologia: 'frontali'
+            tipologia: 'carrelli-frontali'
         },
         description: 'Modello a 4 ruote con ottima stabilità e precisione millimetrica. Portata 1.8 t, sollevamento 5.07 m.',
         price: 'Noleggio o Vendita'
@@ -374,7 +369,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '1800 kg',
             altezza: '4770 mm',
-            tipologia: 'frontali'
+            tipologia: 'carrelli-frontali'
         },
         description: 'Carrello frontale elettrico STILL RX 20-18, portata 1.8 t, altezza sollevamento 4.77 m, anno 2019.',
         price: 'Noleggio o Vendita'
@@ -396,7 +391,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '1600 kg',
             altezza: '4620 mm',
-            tipologia: 'frontali'
+            tipologia: 'carrelli-frontali'
         },
         description: 'Carrello frontale a 4 ruote compatto STILL RX 20-16 P, anno 2021, portata 1.6 t. Ideale per carico/scarico merci.',
         price: 'Noleggio o Vendita'
@@ -418,7 +413,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '1600 kg',
             altezza: '5220 mm',
-            tipologia: 'frontali'
+            tipologia: 'carrelli-frontali'
         },
         description: 'Carrello frontale a 3 ruote compatto STILL RX 20-16 C, portata 1.6 t, sollevamento 5.22 m.',
         price: 'Noleggio o Vendita'
@@ -440,7 +435,7 @@ const PRODUCTS = [
             alimentazione: 'diesel',
             portata: '2500 kg',
             altezza: '7390 mm',
-            tipologia: 'frontali'
+            tipologia: 'carrelli-frontali'
         },
         description: 'Potente carrello frontale diesel del 2022. Portata 2.5 t, sollevamento eccezionale a 7.39 m per uso esterno.',
         price: 'Noleggio o Vendita'
@@ -462,7 +457,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '3000 kg',
             altezza: '4000 mm',
-            tipologia: 'frontali'
+            tipologia: 'carrelli-frontali'
         },
         description: 'Carrello elevatore elettrico LUGLI ELX 30, robusto e affidabile, portata 3.0 t, altezza sollevamento 4.0 m.',
         price: 'Noleggio o Vendita'
@@ -485,7 +480,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '2000 kg',
             altezza: '3170 mm',
-            tipologia: 'magazzino'
+            tipologia: 'carrelli-magazzino'
         },
         description: 'Sollevatore a timone STILL EXV 20, anno 2024, portata 2.0 t, sollevamento 3.17 m. Praticamente nuovo.',
         price: 'Noleggio o Vendita'
@@ -507,7 +502,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '1200 kg',
             altezza: '4386 mm',
-            tipologia: 'magazzino'
+            tipologia: 'carrelli-magazzino'
         },
         description: 'Sollevatore a colonna compatto STILL EXV 12, portata 1.2 t, altezza sollevamento 4.38 m. Facile da manovrare.',
         price: 'Noleggio o Vendita'
@@ -529,7 +524,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '1400 kg',
             altezza: '4800 mm',
-            tipologia: 'magazzino'
+            tipologia: 'carrelli-magazzino'
         },
         description: 'Stoccatore elettrico STILL EXV 14, portata 1.4 t, altezza sollevamento 4.8 m. Perfetto per magazzinaggio intensivo.',
         price: 'Noleggio o Vendita'
@@ -551,7 +546,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '1400 kg',
             altezza: '4350 mm',
-            tipologia: 'magazzino'
+            tipologia: 'carrelli-magazzino'
         },
         description: 'Stoccatore elettrico STILL EXV 14, portata 1.4 t, altezza sollevamento 4.35 m.',
         price: 'Noleggio o Vendita'
@@ -573,7 +568,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '1400 kg',
             altezza: '4266 mm',
-            tipologia: 'magazzino'
+            tipologia: 'carrelli-magazzino'
         },
         description: 'Stoccatore elettrico STILL EXV 14, portata 1.4 t, altezza sollevamento 4.26 m.',
         price: 'Noleggio o Vendita'
@@ -595,7 +590,7 @@ const PRODUCTS = [
             alimentazione: 'Elettrico',
             portata: '1200 kg',
             altezza: '4386 mm',
-            tipologia: 'magazzino'
+            tipologia: 'carrelli-magazzino'
         },
         description: 'Stoccatore a colonna STILL EXV 12, portata 1.2 t, altezza sollevamento 4.38 m, anno 2019.',
         price: 'Noleggio o Vendita'
@@ -651,6 +646,7 @@ const PRODUCTS = [
 
 
 function initForkliftFinder() {
+    console.log('[Finder] initForkliftFinder called. PRODUCTS count:', PRODUCTS.length);
     const resultsGrid = document.getElementById('results-grid');
     const resultsCount = document.getElementById('results-count');
     const selectCategoria = document.getElementById('filter-categoria');
@@ -662,34 +658,11 @@ function initForkliftFinder() {
     const inputSearch = document.getElementById('filter-search');
     const btnCerca = document.getElementById('btn-finder-cerca');
 
-    if (!resultsGrid) return;
-
-    // Dynamically calculate and set counts in category select options
-    function updateCategoryCounts() {
-        if (!selectCategoria) return;
-        const counts = {
-            tutti: 98,
-            frontali: 44,
-            magazzino: 27,
-            transpallet: 27,
-            occasioni: 7
-        };
-        
-        for (let i = 0; i < selectCategoria.options.length; i++) {
-            const opt = selectCategoria.options[i];
-            if (opt.value === '') {
-                opt.textContent = `Tutti i prodotti (${counts.tutti})`;
-            } else if (opt.value === 'frontali') {
-                opt.textContent = `Carrelli Frontali (${counts.frontali})`;
-            } else if (opt.value === 'magazzino') {
-                opt.textContent = `Carrelli magazzino (${counts.magazzino})`;
-            } else if (opt.value === 'transpallet') {
-                opt.textContent = `Transpallet (${counts.transpallet})`;
-            } else if (opt.value === 'occasioni') {
-                opt.textContent = `Occasioni (${counts.occasioni})`;
-            }
-        }
+    if (!resultsGrid) {
+        console.error('[Finder] results-grid NOT found in DOM!');
+        return;
     }
+    console.log('[Finder] All elements found. Setting up filters...');
 
     function parseVal(val) {
         if (!val) return 0;
@@ -697,7 +670,118 @@ function initForkliftFinder() {
         return clean ? parseInt(clean, 10) : 0;
     }
 
+    // Dynamically populate ALL filter dropdowns from actual PRODUCTS data
+    function populateFilters() {
+        // --- Categoria (with counts) ---
+        if (selectCategoria) {
+            const counts = {
+                tutti: PRODUCTS.length,
+                frontali: PRODUCTS.filter(p => p.specs.tipologia === 'carrelli-frontali').length,
+                magazzino: PRODUCTS.filter(p => p.specs.tipologia === 'carrelli-magazzino').length,
+                transpallet: PRODUCTS.filter(p => p.specs.tipologia === 'transpallet').length,
+                occasioni: PRODUCTS.filter(p => p.isOccasione).length
+            };
+            selectCategoria.innerHTML = '';
+            selectCategoria.add(new Option(`Tutti i prodotti (${counts.tutti})`, ''));
+            if (counts.frontali > 0) selectCategoria.add(new Option(`Carrelli Frontali (${counts.frontali})`, 'carrelli-frontali'));
+            if (counts.magazzino > 0) selectCategoria.add(new Option(`Carrelli magazzino (${counts.magazzino})`, 'carrelli-magazzino'));
+            if (counts.transpallet > 0) selectCategoria.add(new Option(`Transpallet (${counts.transpallet})`, 'transpallet'));
+            if (counts.occasioni > 0) selectCategoria.add(new Option(`Occasioni (${counts.occasioni})`, 'occasioni'));
+        }
+
+        // --- Anno (sorted descending, only years that exist) ---
+        if (selectAnno) {
+            const years = [...new Set(PRODUCTS.map(p => p.specs.anno).filter(Boolean))];
+            years.sort((a, b) => parseInt(b) - parseInt(a));
+            selectAnno.innerHTML = '';
+            selectAnno.add(new Option('Anno', ''));
+            years.forEach(y => selectAnno.add(new Option(y, y)));
+        }
+
+        // --- Alimentazione (only types that exist) ---
+        if (selectAlimentazione) {
+            const hasElettrico = PRODUCTS.some(p => {
+                const a = p.specs.alimentazione.toLowerCase();
+                return a === 'elettrico' || a.includes('litio');
+            });
+            const hasDiesel = PRODUCTS.some(p => {
+                const a = p.specs.alimentazione.toLowerCase();
+                return a === 'diesel' || a === 'gpl';
+            });
+            const hasManuale = PRODUCTS.some(p => p.specs.alimentazione.toLowerCase() === 'manuale');
+
+            selectAlimentazione.innerHTML = '';
+            selectAlimentazione.add(new Option('Tutte le alimentazioni', ''));
+            if (hasElettrico) selectAlimentazione.add(new Option('Elettrico', 'Elettrico'));
+            if (hasDiesel) selectAlimentazione.add(new Option('Diesel / GPL', 'Diesel'));
+            if (hasManuale) selectAlimentazione.add(new Option('Manuale', 'Manuale'));
+        }
+
+        // --- Portata (only ranges that contain products) ---
+        if (selectPortata) {
+            const ranges = [
+                { label: '1000 - 2000 kg', value: '1000+2000' },
+                { label: '2000 - 3000 kg', value: '2000+3000' },
+                { label: '3000 - 4000 kg', value: '3000+4000' },
+                { label: '4000 - 5000 kg', value: '4000+5000' },
+                { label: '5000 - 6000 kg', value: '5000+6000' },
+                { label: '6000 - 7000 kg', value: '6000+7000' },
+                { label: '7000 - 8000 kg', value: '7000+8000' },
+                { label: '8000 - 9000 kg', value: '8000+9000' }
+            ];
+            selectPortata.innerHTML = '';
+            selectPortata.add(new Option('Portata Kg.', ''));
+            ranges.forEach(r => {
+                const parts = r.value.split('+');
+                const min = parseInt(parts[0], 10);
+                const max = parseInt(parts[1], 10);
+                const count = PRODUCTS.filter(p => {
+                    const pv = parseVal(p.specs.portata);
+                    return pv >= min && pv <= max;
+                }).length;
+                if (count > 0) selectPortata.add(new Option(r.label, r.value));
+            });
+        }
+
+        // --- Sollevamento (only ranges that contain products) ---
+        if (selectSollevamento) {
+            const ranges = [
+                { label: '0 - 2000 mm', value: '0+2000' },
+                { label: '2000 - 3000 mm', value: '2000+3000' },
+                { label: '3000 - 4000 mm', value: '3000+4000' },
+                { label: '4000 - 5000 mm', value: '4000+5000' },
+                { label: '5000 - 6000 mm', value: '5000+6000' },
+                { label: '6000 - 7000 mm', value: '6000+7000' },
+                { label: '7000 - 8000 mm', value: '7000+8000' }
+            ];
+            selectSollevamento.innerHTML = '';
+            selectSollevamento.add(new Option('Sollevamento mm.', ''));
+            ranges.forEach(r => {
+                const parts = r.value.split('-');
+                const min = parseInt(parts[0], 10);
+                const max = parseInt(parts[1], 10);
+                const count = PRODUCTS.filter(p => {
+                    const sv = parseVal(p.specs.altezza);
+                    return sv >= min && sv <= max;
+                }).length;
+                if (count > 0) selectSollevamento.add(new Option(r.label, r.value));
+            });
+        }
+
+        // --- Marca (only brands that exist) ---
+        if (selectMarca) {
+            const brands = [...new Set(PRODUCTS.map(p => p.specs.marca).filter(Boolean))];
+            brands.sort();
+            selectMarca.innerHTML = '';
+            selectMarca.add(new Option('Tutte le marche', ''));
+            brands.forEach(b => selectMarca.add(new Option(b, b)));
+        }
+
+        console.log('[Finder] Filters populated dynamically from', PRODUCTS.length, 'products');
+    }
+
     function renderProducts() {
+      try {
         const cat = selectCategoria ? selectCategoria.value : '';
         const anno = selectAnno ? selectAnno.value : '';
         const alim = selectAlimentazione ? selectAlimentazione.value : '';
@@ -705,8 +789,10 @@ function initForkliftFinder() {
         const sollevamento = selectSollevamento ? selectSollevamento.value : '';
         const marca = selectMarca ? selectMarca.value : '';
 
-        // Check if any filters are active
         const searchQuery = inputSearch ? inputSearch.value.trim().toLowerCase() : '';
+        console.log('[Finder] renderProducts - Filters:', { cat, anno, alim, portata, sollevamento, marca, searchQuery });
+
+        // Check if any filters are active
         const hasActiveFilters = !!(cat || anno || alim || portata || sollevamento || marca || searchQuery);
 
         const filtered = PRODUCTS.filter(prod => {
@@ -730,7 +816,7 @@ function initForkliftFinder() {
             let matchAlim = true;
             if (alim) {
                 const prodAlim = prod.specs.alimentazione.toLowerCase();
-                if (alim === 'diesel') {
+                if (alim === 'Diesel') {
                     matchAlim = prodAlim === 'diesel' || prodAlim === 'gpl';
                 } else if (alim === 'Elettrico') {
                     matchAlim = prodAlim === 'elettrico' || prodAlim.includes('litio');
@@ -742,7 +828,7 @@ function initForkliftFinder() {
             // 4. Portata
             let matchPortata = true;
             if (portata) {
-                const parts = portata.split('-');
+                const parts = portata.split('+');
                 const min = parseInt(parts[0], 10);
                 const max = parseInt(parts[1], 10);
                 const pVal = parseVal(prod.specs.portata);
@@ -752,7 +838,7 @@ function initForkliftFinder() {
             // 5. Sollevamento
             let matchSollevamento = true;
             if (sollevamento) {
-                const parts = sollevamento.split('-');
+                const parts = sollevamento.split('+');
                 const min = parseInt(parts[0], 10);
                 const max = parseInt(parts[1], 10);
                 const sVal = parseVal(prod.specs.altezza);
@@ -846,6 +932,11 @@ function initForkliftFinder() {
             `;
             resultsGrid.appendChild(card);
         });
+
+        console.log('[Finder] Rendered', filtered.length, 'products');
+      } catch (err) {
+        console.error('[Finder] Error in renderProducts:', err);
+      }
     }
 
     // Trigger filter update on change of any select
@@ -874,7 +965,7 @@ function initForkliftFinder() {
     }
 
     // Setup initial state
-    updateCategoryCounts();
+    populateFilters();
     renderProducts();
 
     // Expose reset filters globally
@@ -915,7 +1006,7 @@ function initScrollAnimations() {
     const observerOptions = {
         root: null,
         threshold: 0.02,
-        rootMargin: '0px 0px -20px 0px'
+        rootMargin: '0px 0px -50px 0px'
     };
 
     const observer = new IntersectionObserver((entries, observer) => {
@@ -943,12 +1034,23 @@ function initScrollAnimations() {
     // Add dynamic CSS for scroll animation classes
     const style = document.createElement('style');
     style.innerHTML = `
-        .reveal-section,
-        .reveal-section.section-visible,
-        .animate-on-scroll,
-        .animate-on-scroll.animated {
+        .reveal-section {
+            opacity: 0;
+            transform: translateY(15px);
+            transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+        }
+        .reveal-section.section-visible {
             opacity: 1 !important;
-            transform: none !important;
+            transform: translateY(0) !important;
+        }
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+        }
+        .animate-on-scroll.animated {
+            opacity: 1;
+            transform: translateY(0);
         }
     `;
     document.head.appendChild(style);
@@ -1017,3 +1119,11 @@ document.addEventListener('keydown', function(event) {
         document.body.style.overflow = '';
     }
 });
+
+// Run entry point after all scripts and definitions are loaded
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+} else {
+    init();
+}
+
