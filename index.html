@@ -464,7 +464,7 @@
 </ul>
 </div>
 </footer>
-<script src="https://unpkg.com/lucide@0.460.0"></script>
+<script src="https://unpkg.com/lucide@0.460.0" async onload="if(typeof lucide!=='undefined')lucide.createIcons();"></script>
 <script>
 /* ==========================================================================
    CENTRO CARRELLI - STILL INSPIRED INTERACTIVE LOGIC (2026)
@@ -1579,7 +1579,7 @@ document.addEventListener('keydown', function(event) {
 });
 
 </script>
-<script>if (typeof lucide !== 'undefined') { lucide.createIcons(); };</script>
+
 <!-- Product Modals -->
 <div class="modal-overlay" id="modal-ech12c" onclick="closeModalOnOverlay(event, 'ech12c')">
 <div class="modal-wrapper">
