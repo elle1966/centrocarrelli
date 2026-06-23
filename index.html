@@ -492,12 +492,6 @@ function init() {
     }
 }
 
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-} else {
-    init();
-}
-
 /**
  * Handle navigation interactions (sticky on scroll, mobile hamburger menu)
  */
@@ -557,6 +551,7 @@ function initNavigation() {
                         }
                     }
                 }
+            });
         });
     }
 
@@ -1591,6 +1586,13 @@ document.addEventListener('keydown', function(event) {
         document.body.style.overflow = '';
     }
 });
+
+// Run entry point after all scripts and definitions are loaded
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+} else {
+    init();
+}
 
 </script>
 
