@@ -12,14 +12,14 @@ html {
    Design Tokens
    -------------------------------------------------------------------------- */
 :root {
-    --color-orange: #F96815;
-    --color-orange-hover: #E25A0C;
+    --color-orange: #C84E00;
+    --color-orange-hover: #A64000;
     --color-orange-glow: rgba(249, 104, 21, 0.15);
 
     --color-ink: #1A1A1A;
     --color-graphite: #2F2E2C;
     --color-body: #5C5B59;
-    --color-caption: #8A8987;
+    --color-caption: #757472;
     --color-border: #E6E5E3;
     --color-surface: #FFFFFF;
     --color-band: #F2F1EF;
@@ -1833,7 +1833,7 @@ svg.spec-icon {
 }
 
 .promo-bottom-cta p {
-    color: #8A8987;
+    color: #757472;
     font-size: 0.9rem;
     margin-bottom: 12px;
 }
@@ -1939,8 +1939,8 @@ svg.spec-icon {
 }
 
 .modal-close:hover {
-    background: var(--color-orange, #F96815);
-    border-color: var(--color-orange, #F96815);
+    background: var(--color-orange, #C84E00);
+    border-color: var(--color-orange, #C84E00);
 }
 
 .modal-content {
@@ -1986,7 +1986,7 @@ svg.spec-icon {
 
 .modal-subtitle {
     font-size: 0.85rem;
-    color: var(--color-orange, #F96815);
+    color: var(--color-orange, #C84E00);
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 1.5px;
@@ -2016,7 +2016,7 @@ svg.spec-icon {
     font-size: 1.1rem;
     font-weight: 700;
     margin-bottom: 15px;
-    border-bottom: 2px solid var(--color-orange, #F96815);
+    border-bottom: 2px solid var(--color-orange, #C84E00);
     padding-bottom: 8px;
     font-family: var(--font-display);
 }
@@ -2064,7 +2064,7 @@ svg.spec-icon {
     content: "✓";
     position: absolute;
     left: 0;
-    color: var(--color-orange, #F96815);
+    color: var(--color-orange, #C84E00);
     font-weight: 700;
 }
 
@@ -2145,7 +2145,7 @@ svg.spec-icon {
     border-color: rgba(255, 255, 255, 0.25);
 }
 .finder-select:focus, .finder-input:focus {
-    border-color: var(--color-orange, #F96815);
+    border-color: var(--color-orange, #C84E00);
     box-shadow: 0 0 0 2px rgba(249, 104, 21, 0.25);
 }
 .finder-select option {
@@ -2156,7 +2156,7 @@ svg.spec-icon {
     display: inline-block;
     width: 100%;
     padding: 12px 14px;
-    background-color: var(--color-orange, #F96815);
+    background-color: var(--color-orange, #C84E00);
     color: #0F172A;
     border: none;
     border-radius: var(--radius-sm, 4px);
