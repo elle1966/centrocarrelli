@@ -806,7 +806,7 @@ function initForkliftFinder() {
             card.innerHTML = `
                 <div class="product-img">
                     <span class="product-tag ${prod.tagClass}">${prod.tag}</span>
-                    <img src="${prod.image}" alt="${prod.name}">
+                    <img src="${prod.image}" alt="${prod.name}" width="300" height="200" loading="lazy">
                 </div>
                 <div class="product-info">
                     <span class="product-brand">${prod.brand}</span>
