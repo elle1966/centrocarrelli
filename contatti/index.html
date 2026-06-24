@@ -130,9 +130,9 @@
 <p><strong>Orario:</strong> Lunedì‑Venerdì 08:00‑18:00</p>
 </div>
 <form action="/contatti-submit.php" class="contact-form" method="POST">
-<input name="nome" placeholder="Nome e Cognome" required="" type="text"/>
-<input name="email" placeholder="Email" required="" type="email"/>
-<input name="telefono" placeholder="Telefono" type="text"/>
+<input autocomplete="name" name="nome" placeholder="Nome e Cognome" required="" type="text"/>
+<input autocomplete="email" name="email" placeholder="Email" required="" type="email"/>
+<input autocomplete="tel" name="telefono" placeholder="Telefono" type="text"/>
 <textarea name="messaggio" placeholder="Il tuo messaggio" required="" rows="5"></textarea>
 <button type="submit">Invia</button>
 </form>
