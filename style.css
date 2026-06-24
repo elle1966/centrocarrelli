@@ -1340,7 +1340,7 @@ textarea.form-control {
    -------------------------------------------------------------------------- */
 .footer-bottom {
     background-color: var(--color-ink);
-    color: rgba(255, 255, 255, 0.35);
+    color: rgba(255, 255, 255, 0.65);
     padding: 28px 0;
     font-size: 0.82rem;
     border-top: 1px solid rgba(255, 255, 255, 0.06);
@@ -1364,7 +1364,7 @@ textarea.form-control {
 }
 
 .footer-links a {
-    color: rgba(255, 255, 255, 0.35);
+    color: rgba(255, 255, 255, 0.65);
     transition: var(--transition-fast);
 }
 
