@@ -7,7 +7,7 @@ function init(){console.log("Initializing Centro Carrelli logic...");try{initNav
             `;return;}filtered.forEach(prod=>{const card=document.createElement('div');card.className='product-card';let specsHtml='';if(prod.specs.marca)specsHtml+=`<li>Marca: <strong>${prod.specs.marca}</strong></li>`;if(prod.specs.modello)specsHtml+=`<li>Modello: <strong>${prod.specs.modello}</strong></li>`;if(prod.specs.matricola)specsHtml+=`<li>Matricola: <strong>${prod.specs.matricola}</strong></li>`;if(prod.specs.anno)specsHtml+=`<li>Anno: <strong>${prod.specs.anno}</strong></li>`;if(prod.specs.alimentazione){specsHtml+=`<li>Alimentazione: <strong style="text-transform: capitalize;">${prod.specs.alimentazione}</strong></li>`;}if(prod.specs.portata)specsHtml+=`<li>Portata: <strong>${prod.specs.portata}</strong></li>`;if(prod.specs.altezza)specsHtml+=`<li>Sollevamento: <strong>${prod.specs.altezza}</strong></li>`;card.innerHTML=`
                 <div class="product-img">
                     <span class="product-tag ${prod.tagClass}">${prod.tag}</span>
-                    <img src="${prod.image}" alt="${prod.name}">
+                    <img src="${prod.image}" alt="${prod.name}" width="300" height="200" loading="lazy">
                 </div>
                 <div class="product-info">
                     <span class="product-brand">${prod.brand}</span>
